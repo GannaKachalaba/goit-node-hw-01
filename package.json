@@ -1,12 +1,12 @@
 {
   "name": "goit-node-hw-01",
   "version": "1.0.0",
-  "description": "",
+  "description": "List of All Contacts -  https://prnt.sc/ZNXSffA7lMEz;",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "keywords": [],
   "dependencies": {
     "commander": "^10.0.1",
-    "console.table": "^0.10.0"
+    "console.table": "^0.10.0",
+    "uuid": "^9.0.0"
   }
 }
